@@ -1,4 +1,0 @@
----
-slug: lace
-name: lace
----

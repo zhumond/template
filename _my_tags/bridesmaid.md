@@ -1,4 +1,0 @@
----
-slug: bridesmaid
-name: bridesmaid
----

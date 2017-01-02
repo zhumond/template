@@ -1,4 +1,0 @@
----
-slug: sash
-name: sash
----

@@ -1,4 +1,0 @@
----
-slug: apparel
-name: apparel
----

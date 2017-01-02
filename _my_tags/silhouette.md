@@ -1,4 +1,0 @@
----
-slug: silhouette
-name: silhouette
----

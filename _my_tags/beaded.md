@@ -1,4 +1,0 @@
----
-slug: beaded
-name: beaded
----

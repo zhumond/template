@@ -1,4 +1,0 @@
----
-slug: length
-name: length
----

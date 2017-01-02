@@ -1,4 +1,0 @@
----
-slug: appliqu
-name: appliqu
----

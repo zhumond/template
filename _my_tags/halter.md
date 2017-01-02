@@ -1,4 +1,0 @@
----
-slug: halter
-name: halter
----

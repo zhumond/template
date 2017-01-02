@@ -1,4 +1,0 @@
----
-slug: brocade
-name: brocade
----

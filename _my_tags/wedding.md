@@ -1,4 +1,0 @@
----
-slug: wedding
-name: wedding
----

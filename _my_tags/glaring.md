@@ -1,4 +1,0 @@
----
-slug: glaring
-name: glaring
----

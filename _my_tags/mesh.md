@@ -1,4 +1,0 @@
----
-slug: mesh
-name: mesh
----

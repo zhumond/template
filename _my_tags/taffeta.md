@@ -1,4 +1,0 @@
----
-slug: taffeta
-name: taffeta
----

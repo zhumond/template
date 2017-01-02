@@ -1,4 +1,0 @@
----
-slug: gown
-name: gown
----

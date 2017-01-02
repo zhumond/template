@@ -1,4 +1,0 @@
----
-slug: star
-name: star
----

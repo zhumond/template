@@ -1,4 +1,0 @@
----
-slug: dress
-name: dress
----

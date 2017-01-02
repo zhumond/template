@@ -1,4 +1,0 @@
----
-slug: strapless
-name: strapless
----

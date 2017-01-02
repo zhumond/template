@@ -1,4 +1,0 @@
----
-slug: satin
-name: satin
----
