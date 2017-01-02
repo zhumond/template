@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Branded Bridal Gowns|Designer Wedding Dresses|Dresses for 2016
+name: __SITE_NAME__
 
 # Short bio or description (displayed in the header)
-description: We are a professional wedding dresses outlet store who sell affordable wedding dresses online, with quality fabrics and custom sizing.
+description: __DESCRIPTION__
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /static/img/avatar.jpg
@@ -37,7 +37,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://lignertys.github.io
+url: __URL__
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
