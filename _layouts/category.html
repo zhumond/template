@@ -1,0 +1,35 @@
+---
+layout: page
+---
+<h2>Posts related to: {{ page.title }}</h2>
+
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+{% for mycategory in site.my_categories %}
+{% if mycategory.slug == page.slug %}
+  {% assign current_category = mycategory%}
+  {% break %}
+{% endif %}
+{% endfor %}
+
+{% unless site.categories[current_category.name] | size > 0 %}
+  <p>No posts in this category at this time.</p>
+{% endunless %}
+
+{% for post in site.categories[current_category.name] %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+</div>
+<hr>
+{% endfor %}

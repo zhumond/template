@@ -1,0 +1,56 @@
+{% if paginator.total_pages > 1 %}
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+
+        <li><a href="/">&laquo;</a></li>
+      {% else %}
+        <li><a href="/page{{paginator.previous_page}}">&laquo;</a></li>
+      {% endif %}
+    {% else %}
+      <li class="disabled"><a href="javascript:void(0);">&laquo;</a></li>
+    {% endif %}
+
+    {% if paginator.page == 1 %}
+      <li class="current"><a href="javascript:void(0);">1</a></li>
+    {% else %}
+      <li><a href="/">1</a></li>
+    {% endif %}
+
+    {% assign page_start = 2 %}
+    {% if paginator.page > 5 %}
+      {% assign page_start = paginator.page | minus: 2 %}
+      <li class="disabled">…</li>
+    {% endif %}
+
+    {% assign page_end = paginator.total_pages | minus: 1 %}
+    {% assign to_end = paginator.total_pages | minus: paginator.page %}
+    {% if to_end > 4 %}
+      {% assign page_end = paginator.page | plus: 2 %}
+    {% endif %}
+
+    {% for index in (page_start..page_end) %}
+      {% if index == paginator.page %}
+        <li class="current"><a href="javascript:void(0);">{{index}}</a></li>
+      {% else %}
+        <li><a href="/page{{index}}">{{index}}</a></li>
+      {% endif %}
+    {% endfor %}
+
+    {% if to_end > 4 %}
+      <li class="disabled">…</li>
+    {% endif %}
+
+    {% if paginator.page == paginator.total_pages %}
+      <li class="current"><a <a href="javascript:void(0);">>{{paginator.page}}</a></li>
+    {% else %}
+      <li><a href="/page{{paginator.total_pages}}">{{paginator.total_pages}}</a></li>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <li><a href="/page{{paginator.next_page}}">&raquo;</a></li>
+    {% else %}
+      <li class="disabled"><a href="javascript:void(0);">&raquo;</a></li>
+    {% endif %}
+  </ul>
+{% endif %}

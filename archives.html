@@ -1,0 +1,23 @@
+---
+layout: page
+title: Archives
+permalink: /archives/
+---
+
+<div class="post">
+    <ul>
+      {% for post in site.posts %}
+        {% unless post.next %}
+          <h3><a href="/archives/{{ post.date | date: '%Y-%m' }}">{{ post.date | date: '%b %Y' }}</a></h3>
+        {% else %}
+          {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
+          {% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
+          {% if year != nyear %}
+            <h3><a href="/archives/{{ post.date | date: '%Y-%m' }}">{{ post.date | date: '%b %Y' }}</a></h3>
+          {% endif %}
+        {% endunless %}
+
+        {% comment %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endcomment %}
+      {% endfor %}
+    </ul>
+</div>

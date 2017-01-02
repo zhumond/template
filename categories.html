@@ -1,0 +1,23 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+---
+
+{% for category in site.categories %}
+	{% assign current_category = false %}
+	{% for mycategory in site.my_categories %}
+		{% if mycategory.name == category[0] %}
+			{% assign current_category = mycategory%}
+			{% break %}
+		{% endif %}
+	{% endfor %}
+	
+	{% if current_category != false %}
+    <a href="/category/{{ current_category.slug }}/" style="text-decoration: none;">
+    	{{ current_category.name }}
+    </a><br />
+    {% endif %}
+
+{% endfor %}
+<p />

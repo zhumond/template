@@ -1,0 +1,4 @@
+---
+slug: home
+name: home
+---
