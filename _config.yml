@@ -16,19 +16,6 @@ basedomain: __BASEDOMAIN__
 # - red
 color: red
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /static/img/avatar.jpg
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  rss: true # just type anything here for a working RSS icon, make sure you set the "url" above!
-
-related-sites:
-
 baseurl: ""
 
 #
