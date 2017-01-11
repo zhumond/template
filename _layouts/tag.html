@@ -14,7 +14,7 @@ layout: page
 {% endif %}
 {% endfor %}
 
-{% unless site.tags[current_tag.name] | size > 0 %}
+{% unless site.tags[current_tag.name].size > 0 %}
   <p>No posts in this tag at this time.</p>
 {% endunless %}
 
