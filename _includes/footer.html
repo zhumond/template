@@ -1,5 +1,25 @@
-<div>
-powered by 
-<a href="https://www.{{ site.basedomain }}">{{ site.basedomain }}</a> 
-&copy;{{ site.time | date:"%Y" }}
-</div>
+<footer class="site-footer">
+    <div class="bottom-teaser cf">
+      <div class="isLeft">
+        <h5 class="index-headline featured"><span>Categories</span></h5>
+        <section class="author">
+{% for category in site.my_categories limit: 15 %}
+  <p><a href="/category/{{ category.slug }}/">{{ category.name | capitalize }}</a></p>
+{% endfor %}
+        </section>
+      </div>
+      <div class="isRight">
+        <h5 class="index-headline featured"><span>Tags</span></h5>
+        <section class="author">
+{% for tag in site.my_tags limit: 15 %}
+  <p><a href="/tag/{{ tag.slug }}/">{{ tag.name | capitalize }}</a></p>
+{% endfor %}
+        </section>
+      </div>
+    </div>
+
+  	<a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> RSS </span></a>
+	<div class="inner">
+	     <section class="copyright">Powered by <a href="https://www.{{ site.basedomain }}">{{ site.basedomain }}</a> &copy;{{ site.time | date:"%Y" }}</section>
+	</div>
+</footer>

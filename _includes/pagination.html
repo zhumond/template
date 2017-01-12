@@ -8,11 +8,11 @@
         <li><a href="/page{{paginator.previous_page}}">&laquo;</a></li>
       {% endif %}
     {% else %}
-      <li class="disabled"><a href="javascript:void(0);">&laquo;</a></li>
+      <li class="disabled"><a>&laquo;</a></li>
     {% endif %}
 
     {% if paginator.page == 1 %}
-      <li class="current"><a href="javascript:void(0);">1</a></li>
+      <li class="current"><a>1</a></li>
     {% else %}
       <li><a href="/">1</a></li>
     {% endif %}
@@ -31,7 +31,7 @@
 
     {% for index in (page_start..page_end) %}
       {% if index == paginator.page %}
-        <li class="current"><a href="javascript:void(0);">{{index}}</a></li>
+        <li class="current"><a>{{index}}</a></li>
       {% else %}
         <li><a href="/page{{index}}">{{index}}</a></li>
       {% endif %}
@@ -42,7 +42,7 @@
     {% endif %}
 
     {% if paginator.page == paginator.total_pages %}
-      <li class="current"><a <a href="javascript:void(0);">>{{paginator.page}}</a></li>
+      <li class="current"><a>{{paginator.page}}</a></li>
     {% else %}
       <li><a href="/page{{paginator.total_pages}}">{{paginator.total_pages}}</a></li>
     {% endif %}
@@ -50,7 +50,7 @@
     {% if paginator.next_page %}
       <li><a href="/page{{paginator.next_page}}">&raquo;</a></li>
     {% else %}
-      <li class="disabled"><a href="javascript:void(0);">&raquo;</a></li>
+      <li class="disabled"><a>&raquo;</a></li>
     {% endif %}
   </ul>
 {% endif %}

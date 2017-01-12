@@ -1,33 +1,26 @@
 
-name: __SITE_NAME__
+title: __SITE_NAME__
 description: __DESCRIPTION__
 url: __URL__
 basedomain: __BASEDOMAIN__
 
-# Color scheme based on http://flatuicolors.com/.
-# Possible values:
-# - default
-# - dark
-# - turquoise
-# - green
-# - blue
-# - purple
-# - orange
-# - red
-color: red
 
-baseurl: ""
+#####################
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+pages:
+  -
+    title: 'Categories'
+    url: 'categories'
+  -
+    title: 'Archives'
+    url: 'archives'
+  -
+    title: 'Tags'
+    url: 'tags'
 
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.1.0
 
 # Set the Sass partials directory, as we're using @imports
 sass:
