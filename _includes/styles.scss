@@ -89,7 +89,16 @@ body {
   }
 
 }
-
+  .blog-title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    outline: 0;
+    line-height: 50px;
+    word-break: break-word;
+    color: #333333;
+  }
 .blog-header {
   width: 100%;
   max-width: 700px;
@@ -98,18 +107,8 @@ body {
   padding: 0;
   @include box-sizing(border-box);
 
-  .blog-title {
-    margin-bottom: 8px;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: -2px;
-    outline: 0;
-    line-height: 50px;
-    word-break: break-word;
-    color: #333333;
-  }
   .blog-description {
-    font-size: 28px;
+    font-size: 18px;
     margin: 0 0 20px;
     padding: 0;
     line-height: 1.2;
