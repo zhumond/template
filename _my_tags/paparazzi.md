@@ -1,0 +1,4 @@
+---
+slug: paparazzi
+name: paparazzi
+---
