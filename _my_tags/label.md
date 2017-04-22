@@ -1,0 +1,4 @@
+---
+slug: label
+name: label
+---
