@@ -1,0 +1,4 @@
+---
+slug: collection
+name: collection
+---
