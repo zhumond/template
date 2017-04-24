@@ -1,0 +1,4 @@
+---
+slug: hamlet
+name: hamlet
+---
