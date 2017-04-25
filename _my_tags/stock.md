@@ -1,0 +1,4 @@
+---
+slug: stock
+name: stock
+---
