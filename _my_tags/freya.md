@@ -1,0 +1,4 @@
+---
+slug: freya
+name: freya
+---

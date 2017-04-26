@@ -1,0 +1,4 @@
+---
+slug: white
+name: white
+---
