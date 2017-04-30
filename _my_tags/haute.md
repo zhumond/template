@@ -1,0 +1,4 @@
+---
+slug: haute
+name: haute
+---
