@@ -1,0 +1,4 @@
+---
+slug: colors
+name: colors
+---
