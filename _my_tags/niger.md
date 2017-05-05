@@ -1,0 +1,4 @@
+---
+slug: niger
+name: niger
+---
