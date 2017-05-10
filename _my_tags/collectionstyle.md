@@ -1,0 +1,4 @@
+---
+slug: collectionstyle
+name: collectionstyle
+---
