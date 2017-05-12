@@ -1,0 +1,4 @@
+---
+slug: giada
+name: giada
+---
