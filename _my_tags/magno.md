@@ -1,0 +1,4 @@
+---
+slug: magno
+name: magno
+---
