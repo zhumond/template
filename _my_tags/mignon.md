@@ -1,0 +1,4 @@
+---
+slug: mignon
+name: mignon
+---
