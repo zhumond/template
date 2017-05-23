@@ -1,0 +1,4 @@
+---
+slug: foro
+name: foro
+---
