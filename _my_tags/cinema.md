@@ -1,0 +1,4 @@
+---
+slug: cinema
+name: cinema
+---
