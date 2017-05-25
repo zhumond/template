@@ -1,0 +1,4 @@
+---
+slug: frida
+name: frida
+---
