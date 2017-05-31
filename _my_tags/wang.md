@@ -1,0 +1,4 @@
+---
+slug: wang
+name: wang
+---
