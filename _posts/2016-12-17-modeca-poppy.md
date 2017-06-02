@@ -3,7 +3,7 @@ layout: post
 date: '2016-12-17'
 title: "Modeca Poppy"
 category: Modeca
-tags: ["gowns","modeca","formal","bonny","compelling"]
+tags: ["gowns","wedding","compelling","bonny","modeca"]
 image: http://www.novstyles.com/9006-thickbox_default/modeca-poppy.jpg
 ---
 Modeca Poppy
